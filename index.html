@@ -182,52 +182,8 @@
         <div class="text-center mb-5">
           <h2 class="section-title">Khám Phá Theo Danh Mục</h2>
         </div>
-        <div class="row g-4">
-          <div class="col-md-6 col-lg-3">
-            <div class="category-card">
-              <img
-                src="/assets/images/categories/mon-chinh.jpg"
-                alt="Món Chính"
-              />
-              <div class="category-overlay">
-                <h4>Món Chính</h4>
-                <p class="mb-0">150 công thức</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="category-card">
-              <img
-                src="/assets/images/categories/trang-mieng.jpg"
-                alt="Món Tráng Miệng"
-              />
-              <div class="category-overlay">
-                <h4>Món Tráng Miệng</h4>
-                <p class="mb-0">80 công thức</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="category-card">
-              <img src="/assets/images/categories/do-uong.jpg" alt="Đồ Uống" />
-              <div class="category-overlay">
-                <h4>Đồ Uống</h4>
-                <p class="mb-0">60 công thức</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="category-card">
-              <img
-                src="/assets/images/categories/mon-chay.jpg"
-                alt="Món Chay"
-              />
-              <div class="category-overlay">
-                <h4>Món Chay</h4>
-                <p class="mb-0">90 công thức</p>
-              </div>
-            </div>
-          </div>
+        <div class="row g-4" id="categoryGrid">
+          <!-- Danh mục sẽ được render động bằng JS -->
         </div>
       </div>
     </section>
@@ -516,6 +472,70 @@
           window.scrollTo({
             top: window.innerHeight,
             behavior: "smooth",
+          });
+        });
+
+      // Danh sách danh mục và tag tương ứng
+      const categories = [
+        {
+          name: "Món Chính",
+          image: "/assets/images/categories/mon-chinh.jpg",
+          tag: "Món chính",
+        },
+        {
+          name: "Món Tráng Miệng",
+          image: "/assets/images/categories/trang-mieng.jpg",
+          tag: "Tráng miệng",
+        },
+        {
+          name: "Đồ Uống",
+          image: "/assets/images/categories/do-uong.jpg",
+          tag: "Đồ uống",
+        },
+        {
+          name: "Món Chay",
+          image: "/assets/images/categories/mon-chay.jpg",
+          tag: "Món chay",
+        },
+      ];
+
+      fetch("/pages/recipes/recipes-data.json")
+        .then((res) => res.json())
+        .then((recipes) => {
+          // Đếm số lượng công thức theo từng danh mục
+          categories.forEach((cat) => {
+            cat.count = recipes.filter(
+              (r) =>
+                r.tags &&
+                r.tags.some(
+                  (tag) => tag.toLowerCase() === cat.tag.toLowerCase()
+                )
+            ).length;
+          });
+          // Render danh mục
+          document.getElementById("categoryGrid").innerHTML = categories
+            .map(
+              (cat) => `
+                <div class="col-md-6 col-lg-3">
+                  <div class="category-card category-link" data-category="${cat.tag}">
+                    <img src="${cat.image}" alt="${cat.name}" />
+                    <div class="category-overlay">
+                      <h4>${cat.name}</h4>
+                      <p class="mb-0">${cat.count} công thức</p>
+                    </div>
+                  </div>
+                </div>
+              `
+            )
+            .join("");
+          // Gán sự kiện click cho từng danh mục
+          document.querySelectorAll(".category-link").forEach((el) => {
+            el.addEventListener("click", function () {
+              const cat = this.getAttribute("data-category");
+              window.location.href = `/pages/recipes/list.html?category=${encodeURIComponent(
+                cat
+              )}`;
+            });
           });
         });
     </script>
