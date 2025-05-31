@@ -59,8 +59,13 @@ const recipes = [
         time: "60 phút",
         rating: 4.7
       },
-      // ... thêm món liên quan
-    ]
+      {
+        "user": "Lê Thị B",
+        "avatar": "/assets/images/users/user-2.jpg",
+        "rating": 4,
+        "text": "Mình làm thử và cả nhà đều khen ngon, nước dùng trong và thơm!"
+      }
+    ],
   },
   {
   id: "banh-mi",
