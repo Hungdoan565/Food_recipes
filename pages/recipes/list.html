@@ -72,10 +72,100 @@
         );
         background-size: cover;
         background-position: center;
-        padding: 100px 0;
+        padding: 100px 0 60px 0;
         color: white;
-        text-align: center;
         margin-bottom: 50px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+      @media (max-width: 767px) {
+        .page-header .container {
+          flex-direction: column !important;
+          text-align: center !important;
+        }
+
+        .page-header img {
+          margin-top: 2rem;
+          max-width: 90vw !important;
+        }
+      }
+
+      .page-header .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 2rem;
+      }
+
+      @media (min-width: 992px) {
+        .page-header .container {
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .page-header .header-images {
+          display: flex;
+          gap: 1.5rem;
+        }
+      }
+
+      .header-images img {
+        max-width: 220px;
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+        transition: transform 0.4s cubic-bezier(0.4, 2, 0.6, 1);
+      }
+
+      .header-images img:hover {
+        transform: scale(1.04) rotate(-2deg);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+      }
+
+      .page-header img {
+        max-width: 415px;
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        border-radius: 20px;
+        transition: transform 0.4s cubic-bezier(0.4, 2, 0.6, 1);
+      }
+
+      @media (max-width: 991px) {
+        .page-header img {
+          max-width: 90vw !important;
+          height: 200px;
+        }
+      }
+
+      .page-header img:hover {
+        transform: scale(1.04) rotate(-2deg);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+      }
+
+      .page-header .btn {
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+      }
+
+      .page-header .btn-light:hover {
+        background: var(--accent-color);
+        color: white;
+      }
+
+      .page-header .btn-outline-light:hover {
+        background: white;
+        color: var(--primary-color);
+        border-color: white;
       }
 
       .filter-section {
@@ -258,6 +348,9 @@
                 >Đăng nhập</a
               >
             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="/pages/auth/register.html">Đăng ký</a>
+            </li>
             <li class="nav-item ms-2">
               <a
                 class="btn btn-primary px-4 py-2"
@@ -275,11 +368,41 @@
 
     <!-- Page Header -->
     <header class="page-header">
-      <div class="container">
-        <h1 class="display-4 fw-bold mb-4">Khám Phá Công Thức</h1>
-        <p class="lead">
-          Hàng ngàn công thức nấu ăn từ cộng đồng yêu bếp Việt Nam
-        </p>
+      <div
+        class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-4"
+      >
+        <div class="text-start flex-grow-1">
+          <h1 class="display-4 fw-bold mb-3">Khám Phá Công Thức</h1>
+          <p class="lead mb-3">
+            <i class="fas fa-utensils me-2"></i>Hàng ngàn công thức nấu ăn từ
+            cộng đồng yêu bếp Việt Nam
+          </p>
+          <div class="d-flex gap-3 flex-wrap">
+            <a
+              href="/pages/user/add-recipe.html"
+              class="btn btn-light btn-lg shadow-sm"
+            >
+              <i class="fas fa-plus-circle me-2"></i>Chia sẻ công thức
+            </a>
+            <a
+              href="#recipeGrid"
+              class="btn btn-outline-light btn-lg shadow-sm"
+            >
+              <i class="fas fa-fire me-2"></i>Xem công thức nổi bật
+            </a>
+          </div>
+        </div>
+        <div class="header-images d-none d-md-flex">
+          <img src="/assets/images/auth/khampha.jpg" alt="Khám phá công thức" />
+          <img
+            src="/assets/images/auth/khampha1.jpg"
+            alt="Khám phá công thức"
+          />
+          <img
+            src="/assets/images/auth/khamphaCT.jpg"
+            alt="Khám phá công thức"
+          />
+        </div>
       </div>
     </header>
 
