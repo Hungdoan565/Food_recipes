@@ -1,0 +1,1151 @@
+[
+  {
+    "name": "Phở Bò Nam Định",
+    "description": "Phở truyền thống với nước dùng đậm đà, thơm ngon",
+    "image": "/assets/images/recipes/pho-bo.jpg",
+    "time": 45,
+    "rating": 4.8,
+    "author": "Đầu Bếp Việt",
+    "difficulty": "Trung bình",
+    "tags": ["Món chính", "Truyền thống"]
+  },
+  {
+    "name": "Bún Chả Hà Nội",
+    "description": "Bún chả thơm nức mũi với nước chấm chuẩn vị Hà Nội",
+    "image": "/assets/images/recipes/bun-cha.jpg",
+    "time": 60,
+    "rating": 4.9,
+    "author": "Cô Hương",
+    "difficulty": "Trung bình",
+    "tags": ["Món chính", "Hà Nội"]
+  },
+  {
+    "name": "Bánh Xèo Miền Tây",
+    "description": "Bánh xèo giòn rụm với nhân tôm thịt đậm đà",
+    "image": "/assets/images/recipes/banh-xeo.jpg",
+    "time": 30,
+    "rating": 4.7,
+    "author": "Chị Mai",
+    "difficulty": "Dễ",
+    "tags": ["Món chính", "Miền Tây"]
+  },
+  {
+    "name": "Chè Sen Hạt Lựu",
+    "description": "Chè sen thanh mát, bổ dưỡng với hạt lựu đẹp mắt",
+    "image": "/assets/images/recipes/chesen.jpg",
+    "time": 40,
+    "rating": 4.6,
+    "author": "Cô Thảo",
+    "difficulty": "Dễ",
+    "tags": ["Tráng miệng", "Chè"]
+  },
+  {
+    "name": "Cà Phê Trứng Hà Nội",
+    "description": "Cà phê trứng béo ngậy, thơm nồng đặc trưng",
+    "image": "/assets/images/recipes/cf_trung.jpg",
+    "time": 15,
+    "rating": 4.9,
+    "author": "Anh Tuấn",
+    "difficulty": "Trung bình",
+    "tags": ["Đồ uống", "Hà Nội"]
+  },
+  {
+    "name": "Gỏi Cuốn Tôm Thịt",
+    "description": "Gỏi cuốn tươi mát với nhân tôm thịt và rau herbs",
+    "image": "/assets/images/recipes/goicuon.jpg",
+    "time": 25,
+    "rating": 4.5,
+    "author": "Chị Lan",
+    "difficulty": "Dễ",
+    "tags": ["Khai vị", "Healthy"]
+  },
+    {
+        "name": "Cháo Heo",
+        "description": "Cháo heo thơm ngon, bổ dưỡng",
+        "image": "/assets/images/dishes/chaoheo.jpg",
+        "time": 30,
+        "rating": 4.8,
+        "author": "Chị Hằng",
+        "difficulty": "Dễ",
+        "tags": ["Món chính", "Đường phố"]
+    },
+    {
+        "name": "Canh Chua Cá Lóc",
+        "description": "Canh chua cá lóc thanh mát, chua ngọt vừa miệng",
+        "image": "/assets/images/dishes/canhchua.jpg",
+        "time": 50,
+        "rating": 4.7,
+        "author": "Chú Bình",
+        "difficulty": "Trung bình",
+        "tags": ["Món canh", "Miền Tây"]
+    },
+    {
+        "name": "Bánh Flan Caramel",
+        "description": "Bánh flan mềm mịn, caramel ngọt ngào",
+        "image": "/assets/images/dishes/banhflan.jpg",
+        "time": 30,
+        "rating": 4.6,
+        "author": "Cô Lan",
+        "difficulty": "Dễ",
+        "tags": ["Tráng miệng", "Ngọt"]
+    },
+    {
+        "name": "Mì Quảng Tôm Thịt",
+        "description": "Mì Quảng với nước dùng đậm đà, tôm thịt tươi ngon",
+        "image": "/assets/images/dishes/miquangtomthit.jpg",
+        "time": 60,
+        "rating": 4.8,
+        "author": "Chị Ngọc",
+        "difficulty": "Trung bình",
+        "tags": ["Món chính", "Quảng Nam"]
+    },
+    {
+        "name": "Chè Bưởi",
+        "description": "Chè bưởi thanh mát, hương vị độc đáo",
+        "image": "/assets/images/dishes/chebuoi.jpg",
+        "time": 45,
+        "rating": 4.5,
+        "author": "Cô Mai",
+        "difficulty": "Dễ",
+        "tags": ["Tráng miệng", "Chè"]
+    },
+    {
+        "name": "Bánh Trung Thu",
+        "description": "Bánh trung thu nhân đậu xanh thơm ngon, truyền thống",
+        "image": "/assets/images/dishes/banhtrungthu.jpg",
+        "time": 90,
+        "rating": 4.9,
+        "author": "Chị Hương",
+        "difficulty": "Khó",
+        "tags": ["Tráng miệng", "Lễ hội"]
+    },
+    {
+        "name": "Súp Măng Cua",
+        "description": "Súp măng cua thanh mát, bổ dưỡng",
+        "image": "/assets/images/dishes/supmangcua.jpg",
+        "time": 35,
+        "rating": 4.6,
+        "author": "Cô Thúy",
+        "difficulty": "Trung bình",
+        "tags": ["Món canh", "Hải sản"]
+    },
+    {
+        "name": "Bánh Bao Chay",
+        "description": "Bánh bao chay nhân rau củ tươi ngon, hấp dẫn",
+        "image": "/assets/images/dishes/banhbaochay.jpg",
+        "time": 50,
+        "rating": 4.7,
+        "author": "Chị Lan",
+        "difficulty": "Trung bình",
+        "tags": ["Món chính", "Chay"]
+    },
+    {
+        "name": "Cá Kho Tộ",
+        "description": "Cá kho tộ đậm đà, thơm ngon, ăn kèm cơm trắng",
+        "image": "/assets/images/dishes/cakhoto.jpg",
+        "time": 60,
+        "rating": 4.8,
+        "author": "Chú Nam",
+        "difficulty": "Trung bình",
+        "tags": ["Món chính", "Hải sản"]
+    },
+    {
+        "name": "Bánh Pía Sóc Trăng",
+        "description": "Bánh pía nhân đậu xanh, thơm ngon, đặc sản Sóc Trăng",
+        "image": "/assets/images/dishes/banhpia.jpg",
+        "time": 70,
+        "rating": 4.5,
+        "author": "Chị Hằng",
+        "difficulty": "Khó",
+        "tags": ["Tráng miệng", "Đặc sản"]
+    },
+    {
+        "name": "Gà Nướng Mật Ong",
+        "description": "Gà nướng mật ong thơm lừng, da giòn, thịt mềm",
+        "image": "/assets/images/dishes/ganuong.jpg",
+        "time": 80,
+        "rating": 4.9,
+        "author": "Chú Bình",
+        "difficulty": "Khó",
+        "tags": ["Món chính", "Nướng"]
+    },
+    {"name": "Chả Cá Lã Vọng",
+    "description": "Chả cá Lã Vọng thơm ngon, ăn kèm với bún và rau sống",
+    "image": "/assets/images/dishes/chacala.jpg",
+    "time": 50,
+    "rating": 4.8,
+    "author": "Chị Mai",
+    "difficulty": "Trung bình",
+    "tags": ["Món chính", "Hà Nội"]
+    },
+    {
+        "name": "Bánh Bèo Huế",
+        "description": "Bánh bèo Huế mềm mịn, ăn kèm với nước mắm chua ngọt",
+        "image": "/assets/images/dishes/banhbeohue.jpg",
+        "time": 30,
+        "rating": 4.6,
+        "author": "Cô Thảo",
+        "difficulty": "Dễ",
+        "tags": ["Món phụ", "Huế"]
+    },
+    {
+        "name": "Sữa Chua Nếp Cẩm",
+        "description": "Sữa chua nếp cẩm thơm ngon, béo ngậy",
+        "image": "/assets/images/dishes/suachuanepcam.jpg",
+        "time": 20,
+        "rating": 4.7,
+        "author": "Chị Lan",
+        "difficulty": "Dễ",
+        "tags": ["Tráng miệng", "Ngon"]
+    },
+  {
+    "name": "Trà Sữa Trân Châu Đường Đen",
+    "description": "Trà sữa thơm béo, trân châu dai ngọt, vị đường đen đặc trưng",
+    "image": "/assets/images/dishes/trasua.jpg",
+    "time": 20,
+    "rating": 4.9,
+    "author": "Bạn Trẻ Sài Gòn",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Ngọt"]
+  },
+  {
+    "name": "Sinh Tố Bơ",
+    "description": "Sinh tố bơ mịn, béo ngậy, bổ dưỡng cho mùa hè",
+    "image": "/assets/images/dishes/sinhto_bo.jpg",
+    "time": 10,
+    "rating": 4.8,
+    "author": "Chị Mai",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Healthy"]
+  },
+  {
+    "name": "Nước Cam Ép",
+    "description": "Nước cam tươi mát, giàu vitamin C, tăng sức đề kháng",
+    "image": "/assets/images/dishes/nuoccam.jpg",
+    "time": 5,
+    "rating": 4.7,
+    "author": "Anh Tuấn",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Trái cây"]
+  },
+  {
+    "name": "Nước Mía",
+    "description": "Nước mía ngọt mát, giải nhiệt mùa hè, thêm tắc thơm ngon",
+    "image": "/assets/images/dishes/nuoc_mia.jpg",
+    "time": 5,
+    "rating": 4.6,
+    "author": "Cô Hương",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Đường phố"]
+  },
+  {
+    "name": "Chanh Mật Ong",
+    "description": "Nước chanh mật ong thanh mát, tốt cho sức khỏe, tăng đề kháng",
+    "image": "/assets/images/dishes/chanhmatong.jpg",
+    "time": 7,
+    "rating": 4.8,
+    "author": "Chị Lan",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Healthy"]
+  },
+  {
+    "name": "Nước Dừa Tươi",
+    "description": "Nước dừa tươi mát, giải khát tự nhiên, giàu khoáng chất",
+    "image": "/assets/images/dishes/nuocdua.jpg",
+    "time": 3,
+    "rating": 4.7,
+    "author": "Chú Bình",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Trái cây"]
+  },
+  {
+    "name": "Nước Dưa Hấu Ép",
+    "description": "Nước ép dưa hấu ngọt mát, bổ sung vitamin, giải nhiệt",
+    "image": "/assets/images/dishes/nuocduahau.jpg",
+    "time": 5,
+    "rating": 4.6,
+    "author": "Cô Mai",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Trái cây"]
+  },
+  {
+    "name": "Sữa Chua Đánh Đá",
+    "description": "Sữa chua đánh đá mát lạnh, vị chua ngọt hấp dẫn",
+    "image": "/assets/images/dishes/suachua.jpg",
+    "time": 8,
+    "rating": 4.7,
+    "author": "Bạn Trẻ Hà Nội",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Tráng miệng"]
+  },
+  {
+    "name": "Kem Dừa",
+    "description": "Kem dừa mát lạnh, thơm béo, topping dừa sấy hấp dẫn",
+    "image": "/assets/images/dishes/kemdua.jpg",
+    "time": 15,
+    "rating": 4.8,
+    "author": "Chị Ngọc",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Tráng miệng"]
+  },
+  {
+    "name": "Sữa Ngô",
+    "description": "Sữa ngô thơm ngậy, bổ dưỡng, thích hợp cho mọi lứa tuổi",
+    "image": "/assets/images/dishes/suango.jpg",
+    "time": 20,
+    "rating": 4.6,
+    "author": "Cô Thảo",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Ngon"]
+  },
+  {
+    "name": "Sinh Tố Dâu",
+    "description": "Sinh tố dâu tây tươi, vị chua ngọt, màu sắc bắt mắt",
+    "image": "/assets/images/dishes/sinhto_dau.jpg",
+    "time": 10,
+    "rating": 4.7,
+    "author": "Chị Hằng",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Trái cây"]
+  },
+  {
+    "name": "Cơm Tấm Sườn Bì Chả",
+    "description": "Cơm tấm Sài Gòn với sườn nướng, bì, chả trứng hấp dẫn",
+    "image": "/assets/images/recipes/comtam.jpg",
+    "time": 40,
+    "rating": 4.9,
+    "author": "Anh Tuấn",
+    "difficulty": "Trung bình",
+    "tags": ["Món chính", "Sài Gòn"]
+  },
+  {
+    "name": "Bún Bò Huế",
+    "description": "Bún bò Huế cay nồng, nước dùng đậm đà, thịt bò mềm",
+    "image": "/assets/images/dishes/bunbo.jpg",
+    "time": 60,
+    "rating": 4.8,
+    "author": "Cô Mai",
+    "difficulty": "Trung bình",
+    "tags": ["Món chính", "Huế"]
+  },
+  {
+    "name": "Bún Thịt Nướng",
+    "description": "Bún thịt nướng thơm lừng, ăn kèm rau sống và nước mắm chua ngọt",
+    "image": "/assets/images/recipes/bunthitnuong.jpg",
+    "time": 35,
+    "rating": 4.7,
+    "author": "Chị Hằng",
+    "difficulty": "Dễ",
+    "tags": ["Món chính", "Nướng"]
+  },
+  {
+    "name": "Cá Kho Riềng",
+    "description": "Cá kho riềng đậm đà, thơm mùi riềng đặc trưng, ăn cùng cơm nóng",
+    "image": "/assets/images/dishes/cakhorieng.jpg",
+    "time": 55,
+    "rating": 4.8,
+    "author": "Chú Bình",
+    "difficulty": "Trung bình",
+    "tags": ["Món chính", "Hải sản"]
+  },
+  {
+    "name": "Gà Kho Gừng",
+    "description": "Gà kho gừng cay nhẹ, thịt mềm, đậm vị, ăn cùng cơm trắng",
+    "image": "/assets/images/dishes/gakhogung.jpg",
+    "time": 45,
+    "rating": 4.7,
+    "author": "Cô Thảo",
+    "difficulty": "Dễ",
+    "tags": ["Món chính", "Gia đình"]
+  },
+  {
+    "name": "Thịt Kho Tàu",
+    "description": "Thịt kho tàu mềm, béo, nước màu đẹp mắt, ăn kèm trứng",
+    "image": "/assets/images/dishes/thitkhotau.jpg",
+    "time": 70,
+    "rating": 4.9,
+    "author": "Chị Lan",
+    "difficulty": "Trung bình",
+    "tags": ["Món chính", "Gia đình"]
+  },
+  {
+    "name": "Bò Kho Bánh Mì",
+    "description": "Bò kho thơm nồng, thịt bò mềm, ăn kèm bánh mì giòn",
+    "image": "/assets/images/dishes/bokhobanhmi.jpg",
+    "time": 80,
+    "rating": 4.8,
+    "author": "Chú Nam",
+    "difficulty": "Khó",
+    "tags": ["Món chính", "Bánh mì"]
+  },
+  {
+    "name": "Mực Rim Me",
+    "description": "Mực rim me chua ngọt, cay nhẹ, hấp dẫn, ăn cùng cơm hoặc làm mồi nhậu",
+    "image": "/assets/images/dishes/mucriem.jpg",
+    "time": 35,
+    "rating": 4.7,
+    "author": "Anh Tuấn",
+    "difficulty": "Dễ",
+    "tags": ["Món chính", "Hải sản"]
+  },
+  {
+    "name": "Xôi Xéo Hà Nội",
+    "description": "Xôi xéo vàng óng, đậu xanh, hành phi thơm, đặc sản Hà Nội",
+    "image": "/assets/images/dishes/xoixeo.jpg",
+    "time": 50,
+    "rating": 4.8,
+    "author": "Cô Mai",
+    "difficulty": "Trung bình",
+    "tags": ["Món chính", "Hà Nội"]
+  },
+  {
+    "name": "Bánh Cuốn Nóng",
+    "description": "Bánh cuốn nóng mềm mịn, nhân thịt thơm, ăn kèm nước mắm chua ngọt",
+    "image": "/assets/images/dishes/banhcuon.jpg",
+    "time": 30,
+    "rating": 4.7,
+    "author": "Chị Hằng",
+    "difficulty": "Dễ",
+    "tags": ["Món chính", "Ăn sáng"]
+  },
+  {
+    "name": "Bánh Tiramisu",
+    "description": "Bánh tiramisu Ý mềm mịn, vị cà phê và kem phô mai hấp dẫn",
+    "image": "/assets/images/dishes/banhtiramisu.jpg",
+    "time": 60,
+    "rating": 4.8,
+    "author": "Chị Hằng",
+    "difficulty": "Trung bình",
+    "tags": ["Tráng miệng", "Ngọt"]
+  },
+  {
+    "name": "Chè Bắp",
+    "description": "Chè bắp ngọt thanh, thơm mùi bắp non, ăn mát ngày hè",
+    "image": "/assets/images/dishes/chebap.jpg",
+    "time": 40,
+    "rating": 4.7,
+    "author": "Cô Mai",
+    "difficulty": "Dễ",
+    "tags": ["Tráng miệng", "Chè"]
+  },
+  {
+    "name": "Bánh Bao Nhân Đậu Đỏ",
+    "description": "Bánh bao mềm xốp, nhân đậu đỏ ngọt bùi, thích hợp ăn sáng hoặc tráng miệng",
+    "image": "/assets/images/dishes/banhbaodaudo.jpg",
+    "time": 50,
+    "rating": 4.6,
+    "author": "Chị Lan",
+    "difficulty": "Dễ",
+    "tags": ["Tráng miệng", "Ngọt"]
+  },
+  {
+    "name": "Bánh Bò Nướng",
+    "description": "Bánh bò nướng thơm mùi nước cốt dừa, mềm dai, vị ngọt nhẹ",
+    "image": "/assets/images/dishes/banhbo.jpg",
+    "time": 70,
+    "rating": 4.7,
+    "author": "Cô Thảo",
+    "difficulty": "Trung bình",
+    "tags": ["Tráng miệng", "Đặc sản"]
+  },
+  {
+    "name": "Bánh Chuối Nướng",
+    "description": "Bánh chuối nướng vàng ươm, thơm mùi chuối và nước cốt dừa",
+    "image": "/assets/images/dishes/banhchuoi.jpg",
+    "time": 60,
+    "rating": 4.8,
+    "author": "Chị Mai",
+    "difficulty": "Dễ",
+    "tags": ["Tráng miệng", "Ngọt"]
+  },
+  {
+    "name": "Bánh Da Lợn",
+    "description": "Bánh da lợn nhiều lớp, mềm dẻo, vị lá dứa và đậu xanh hấp dẫn",
+    "image": "/assets/images/dishes/banhdalon.jpg",
+    "time": 80,
+    "rating": 4.7,
+    "author": "Cô Hương",
+    "difficulty": "Trung bình",
+    "tags": ["Tráng miệng", "Đặc sản"]
+  },
+  {
+    "name": "Bánh Pudding Trứng",
+    "description": "Pudding trứng mềm mịn, vị ngọt thanh, ăn lạnh rất ngon",
+    "image": "/assets/images/dishes/puddingtrung.jpg",
+    "time": 45,
+    "rating": 4.8,
+    "author": "Chị Ngọc",
+    "difficulty": "Dễ",
+    "tags": ["Tráng miệng", "Ngọt"]
+  },
+  {
+    "name": "Bánh Flan Dừa",
+    "description": "Bánh flan vị dừa thơm béo, mềm mịn, ăn kèm caramel",
+    "image": "/assets/images/dishes/flandua.jpg",
+    "time": 35,
+    "rating": 4.7,
+    "author": "Cô Thảo",
+    "difficulty": "Dễ",
+    "tags": ["Tráng miệng", "Ngọt"]
+  },
+  {
+    "name": "Chè Thái Sầu Riêng",
+    "description": "Chè Thái với sầu riêng, thạch, trái cây và nước cốt dừa đặc trưng",
+    "image": "/assets/images/dishes/chethaisaurieng.jpg",
+    "time": 30,
+    "rating": 4.9,
+    "author": "Chị Hằng",
+    "difficulty": "Dễ",
+    "tags": ["Tráng miệng", "Chè"]
+  },
+  {
+    "name": "Bánh Mochi",
+    "description": "Bánh mochi dẻo thơm, nhân đậu đỏ hoặc kem lạnh, món tráng miệng Nhật Bản",
+    "image": "/assets/images/dishes/mochi.jpg",
+    "time": 50,
+    "rating": 4.8,
+    "author": "Chị Lan",
+    "difficulty": "Trung bình",
+    "tags": ["Tráng miệng", "Đặc sản"]
+  },
+  {
+    "name": "Bánh Tart Trứng",
+    "description": "Bánh tart trứng vàng ươm, vỏ giòn, nhân kem trứng mềm mịn",
+    "image": "/assets/images/dishes/tarttrung.jpg",
+    "time": 40,
+    "rating": 4.7,
+    "author": "Cô Mai",
+    "difficulty": "Trung bình",
+    "tags": ["Tráng miệng", "Ngọt"]
+  },
+  {
+    "name": "Bánh Su Kem",
+    "description": "Bánh su kem vỏ giòn, nhân kem vani béo ngậy, món tráng miệng yêu thích",
+    "image": "/assets/images/dishes/sukem.jpg",
+    "time": 60,
+    "rating": 4.8,
+    "author": "Chị Hằng",
+    "difficulty": "Trung bình",
+    "tags": ["Tráng miệng", "Ngọt"]
+  },
+  {
+    "name": "Đậu Hũ Sốt Cà Chua",
+    "description": "Đậu hũ mềm sốt cà chua đậm đà, ăn kèm cơm nóng",
+    "image": "/assets/images/dishes/dauhu.jpg",
+    "time": 25,
+    "rating": 4.7,
+    "author": "Cô Mai",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Món chính"]
+  },
+  {
+    "name": "Canh Nấm Rong Biển",
+    "description": "Canh nấm rong biển thanh mát, bổ dưỡng, vị ngọt tự nhiên",
+    "image": "/assets/images/dishes/canhnamrongbien.jpg",
+    "time": 30,
+    "rating": 4.8,
+    "author": "Chị Lan",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Món canh"]
+  },
+  {
+    "name": "Cà Tím Kho Tộ",
+    "description": "Cà tím kho tộ đậm đà, mềm thơm, ăn cùng cơm trắng",
+    "image": "/assets/images/dishes/catimkho.jpg",
+    "time": 35,
+    "rating": 4.7,
+    "author": "Chú Bình",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Kho"]
+  },
+  {
+    "name": "Nấm Xào Thập Cẩm",
+    "description": "Nấm xào thập cẩm nhiều loại nấm, rau củ, vị ngọt tự nhiên",
+    "image": "/assets/images/dishes/namxao.jpg",
+    "time": 20,
+    "rating": 4.8,
+    "author": "Cô Thảo",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Xào"]
+  },
+  {
+    "name": "Gỏi Ngó Sen Chay",
+    "description": "Gỏi ngó sen chay thanh mát, giòn ngon, nhiều rau củ",
+    "image": "/assets/images/dishes/goingosenchay.jpg",
+    "time": 25,
+    "rating": 4.7,
+    "author": "Chị Hằng",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Gỏi"]
+  },
+  {
+    "name": "Bún Riêu Chay",
+    "description": "Bún riêu chay đậm đà, nước dùng ngọt thanh từ rau củ",
+    "image": "/assets/images/dishes/bunrieuchay.jpg",
+    "time": 40,
+    "rating": 4.8,
+    "author": "Chị Mai",
+    "difficulty": "Trung bình",
+    "tags": ["Món chay", "Bún"]
+  },
+  {
+    "name": "Miến Xào Chay",
+    "description": "Miến xào chay với nấm, rau củ, vị thanh nhẹ, dễ ăn",
+    "image": "/assets/images/dishes/mienxaochay.jpg",
+    "time": 30,
+    "rating": 4.7,
+    "author": "Cô Lan",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Xào"]
+  },
+  {
+    "name": "Chả Giò Chay",
+    "description": "Chả giò chay giòn rụm, nhân rau củ, ăn kèm bún và rau sống",
+    "image": "/assets/images/dishes/chagiochay.jpg",
+    "time": 45,
+    "rating": 4.8,
+    "author": "Chị Ngọc",
+    "difficulty": "Trung bình",
+    "tags": ["Món chay", "Chiên"]
+  },
+  {
+    "name": "Cơm Chiên Dương Châu Chay",
+    "description": "Cơm chiên dương châu chay nhiều màu sắc, vị đậm đà",
+    "image": "/assets/images/dishes/comchienchay.jpg",
+    "time": 35,
+    "rating": 4.7,
+    "author": "Chú Nam",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Cơm"]
+  },
+  {
+    "name": "Đậu Hũ Tẩm Hành",
+    "description": "Đậu hũ chiên giòn, tẩm hành thơm lừng, ăn kèm cơm",
+    "image": "/assets/images/dishes/dauhuhanh.jpg",
+    "time": 20,
+    "rating": 4.8,
+    "author": "Cô Hương",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Chiên"]
+  },
+  {
+    "name": "Canh Bí Đỏ Chay",
+    "description": "Canh bí đỏ chay ngọt thanh, bổ dưỡng, tốt cho sức khỏe",
+    "image": "/assets/images/dishes/canhbidochay.jpg",
+    "time": 25,
+    "rating": 4.7,
+    "author": "Chị Lan",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Món canh"]
+  },
+  {
+    "name": "Bánh Mì Chay",
+    "description": "Bánh mì chay với pate đậu hũ, rau củ, ăn sáng nhanh gọn",
+    "image": "/assets/images/dishes/banhmichay.jpg",
+    "time": 15,
+    "rating": 4.6,
+    "author": "Anh Tuấn",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Ăn sáng"]
+  },
+  {
+    "name": "Bánh Xèo Chay",
+    "description": "Bánh xèo chay giòn rụm, nhân nấm và rau củ",
+    "image": "/assets/images/dishes/banhxaochay.jpg",
+    "time": 40,
+    "rating": 4.8,
+    "author": "Chị Mai",
+    "difficulty": "Trung bình",
+    "tags": ["Món chay", "Bánh"]
+  },
+  {
+    "name": "Gỏi Cuốn Chay",
+    "description": "Gỏi cuốn chay thanh mát, nhiều rau củ, chấm nước tương đậm đà",
+    "image": "/assets/images/dishes/goicuonchay.jpg",
+    "time": 25,
+    "rating": 4.7,
+    "author": "Cô Thảo",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Cuốn"]
+  },
+  {
+    "name": "Canh Chua Chay",
+    "description": "Canh chua chay thanh mát, vị chua nhẹ từ cà chua và dứa",
+    "image": "/assets/images/dishes/canhchuachay.jpg",
+    "time": 30,
+    "rating": 4.8,
+    "author": "Chị Hằng",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Món canh"]
+  },
+  {
+    "name": "Bún Huế Chay",
+    "description": "Bún Huế chay cay nhẹ, nước dùng ngọt thanh từ rau củ",
+    "image": "/assets/images/dishes/bunhuechay.jpg",
+    "time": 50,
+    "rating": 4.7,
+    "author": "Cô Mai",
+    "difficulty": "Trung bình",
+    "tags": ["Món chay", "Bún"]
+  },
+  {
+    "name": "Mì Xào Chay",
+    "description": "Mì xào chay với rau củ, nấm, vị đậm đà, dễ ăn",
+    "image": "/assets/images/dishes/mixaochay.jpg",
+    "time": 30,
+    "rating": 4.8,
+    "author": "Chị Lan",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Xào"]
+  },
+  {
+    "name": "Súp Bí Đỏ Chay",
+    "description": "Súp bí đỏ chay mềm mịn, vị ngọt tự nhiên, ăn khai vị",
+    "image": "/assets/images/dishes/supbidochay.jpg",
+    "time": 35,
+    "rating": 4.7,
+    "author": "Cô Hương",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Súp"]
+  },
+  {
+    "name": "Đậu Hũ Kho Nấm",
+    "description": "Đậu hũ kho nấm đậm đà, thơm ngon, ăn cùng cơm trắng",
+    "image": "/assets/images/dishes/dauhukhonam.jpg",
+    "time": 40,
+    "rating": 4.8,
+    "author": "Chú Bình",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Kho"]
+  },
+  {
+    "name": "Cơm Gạo Lứt Chay",
+    "description": "Cơm gạo lứt chay nhiều rau củ, tốt cho sức khỏe, ăn kiêng",
+    "image": "/assets/images/dishes/comgaolut.jpg",
+    "time": 35,
+    "rating": 4.7,
+    "author": "Chị Ngọc",
+    "difficulty": "Dễ",
+    "tags": ["Món chay", "Cơm"]
+  },
+  {
+    "name": "Bánh Tráng Trộn",
+    "description": "Bánh tráng trộn Sài Gòn, dai ngon, vị chua cay mặn ngọt hấp dẫn",
+    "image": "/assets/images/dishes/banhtrangtron.jpg",
+    "time": 15,
+    "rating": 4.8,
+    "author": "Bạn Trẻ Sài Gòn",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Đường phố"]
+  },
+  {
+    "name": "Khoai Tây Chiên",
+    "description": "Khoai tây chiên giòn rụm, vàng ươm, ăn kèm tương ớt hoặc sốt mayonnaise",
+    "image": "/assets/images/dishes/khoaitaychien.jpg",
+    "time": 20,
+    "rating": 4.7,
+    "author": "Anh Tuấn",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Chiên"]
+  },
+  {
+    "name": "Chả Giò",
+    "description": "Chả giò vàng giòn, nhân thịt và rau củ, ăn kèm bún và rau sống",
+    "image": "/assets/images/dishes/chagio.jpg",
+    "time": 40,
+    "rating": 4.8,
+    "author": "Cô Mai",
+    "difficulty": "Trung bình",
+    "tags": ["Ăn vặt", "Chiên"]
+  },
+  {
+    "name": "Bánh Bèo",
+    "description": "Bánh bèo Huế mềm mịn, ăn kèm với nước mắm chua ngọt và tôm cháy",
+    "image": "/assets/images/dishes/banhbeo.jpg",
+    "time": 35,
+    "rating": 4.7,
+    "author": "Chị Lan",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Huế"]
+  },
+  {
+    "name": "Xôi Mặn",
+    "description": "Xôi mặn với chả lụa, lạp xưởng, trứng cút, hành phi thơm ngon",
+    "image": "/assets/images/dishes/xoiman.jpg",
+    "time": 30,
+    "rating": 4.8,
+    "author": "Chú Bình",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Xôi"]
+  },
+  {
+    "name": "Bắp Xào Bơ",
+    "description": "Bắp xào bơ thơm ngậy, ngô ngọt, tôm khô, hành lá hấp dẫn",
+    "image": "/assets/images/dishes/bapxao.jpg",
+    "time": 15,
+    "rating": 4.7,
+    "author": "Cô Thảo",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Đường phố"]
+  },
+  {
+    "name": "Bánh Gạo Cay Tokbokki",
+    "description": "Tokbokki Hàn Quốc cay nồng, mềm dẻo, sốt đậm đà",
+    "image": "/assets/images/dishes/tokkboki.jpg",
+    "time": 30,
+    "rating": 4.8,
+    "author": "Chị Ngọc",
+    "difficulty": "Trung bình",
+    "tags": ["Ăn vặt", "Hàn Quốc"]
+  },
+  {
+    "name": "Bánh Cam",
+    "description": "Bánh cam chiên giòn, nhân đậu xanh ngọt bùi, vỏ ngoài phủ mè",
+    "image": "/assets/images/dishes/banhcam.jpg",
+    "time": 40,
+    "rating": 4.7,
+    "author": "Chị Hằng",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Ngọt"]
+  },
+  {
+    "name": "Bánh Rán Doremon",
+    "description": "Bánh rán Doremon mềm xốp, nhân đậu đỏ ngọt bùi, món ăn tuổi thơ",
+    "image": "/assets/images/dishes/banhrandoremon.jpg",
+    "time": 25,
+    "rating": 4.8,
+    "author": "Anh Tuấn",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Ngọt"]
+  },
+  {
+    "name": "Bánh Chuối Chiên",
+    "description": "Bánh chuối chiên vàng giòn, thơm mùi chuối chín, ăn vặt hấp dẫn",
+    "image": "/assets/images/dishes/banhchuoichien.jpg",
+    "time": 20,
+    "rating": 4.7,
+    "author": "Cô Mai",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Chiên"]
+  },
+  {
+    "name": "Bánh Đúc Nóng",
+    "description": "Bánh đúc nóng mềm mịn, nước mắm mặn ngọt, thịt băm và mộc nhĩ",
+    "image": "/assets/images/dishes/banhduc.jpg",
+    "time": 30,
+    "rating": 4.8,
+    "author": "Chị Lan",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Hà Nội"]
+  },
+  {
+    "name": "Nem Chua Rán",
+    "description": "Nem chua rán giòn rụm, vị chua cay, ăn kèm dưa leo và tương ớt",
+    "image": "/assets/images/dishes/nemchua.jpg",
+    "time": 25,
+    "rating": 4.7,
+    "author": "Bạn Trẻ Hà Nội",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Chiên"]
+  },
+  {
+    "name": "Bánh Tráng Nướng",
+    "description": "Bánh tráng nướng Đà Lạt giòn rụm, topping đa dạng, sốt mayonnaise béo ngậy",
+    "image": "/assets/images/dishes/banhtrangnuong.jpg",
+    "time": 15,
+    "rating": 4.8,
+    "author": "Chị Mai",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Đà Lạt"]
+  },
+  {
+    "name": "Bánh Tằm Bì",
+    "description": "Bánh tằm bì miền Tây, sợi bánh mềm, nước cốt dừa béo ngậy, bì heo thơm ngon",
+    "image": "/assets/images/dishes/banhtam.jpg",
+    "time": 35,
+    "rating": 4.7,
+    "author": "Chú Bình",
+    "difficulty": "Trung bình",
+    "tags": ["Ăn vặt", "Miền Tây"]
+  },
+  {
+    "name": "Bánh Bao Chiên",
+    "description": "Bánh bao chiên vàng giòn, nhân thịt đậm đà, ăn kèm tương ớt",
+    "image": "/assets/images/dishes/banhbaochien.jpg",
+    "time": 30,
+    "rating": 4.8,
+    "author": "Cô Thảo",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Chiên"]
+  },
+  {
+    "name": "Bánh Gối",
+    "description": "Bánh gối chiên giòn, nhân thịt, miến, mộc nhĩ, ăn kèm nước mắm chua ngọt",
+    "image": "/assets/images/dishes/banhgoi.jpg",
+    "time": 35,
+    "rating": 4.7,
+    "author": "Chị Ngọc",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Hà Nội"]
+  },
+  {
+    "name": "Bánh Tép Chiên Giòn",
+    "description": "Bánh tép chiên giòn, thơm mùi tép, ăn kèm rau sống và nước mắm",
+    "image": "/assets/images/dishes/banhtep.jpg",
+    "time": 25,
+    "rating": 4.8,
+    "author": "Chị Hằng",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Chiên"]
+  },
+  {
+    "name": "Bánh Đa Kẹp Kem",
+    "description": "Bánh đa kẹp kem mát lạnh, giòn rụm, món ăn tuổi thơ Sài Gòn",
+    "image": "/assets/images/dishes/banhdakepkem.jpg",
+    "time": 10,
+    "rating": 4.7,
+    "author": "Anh Tuấn",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Ngọt"]
+  },
+  {
+    "name": "Bánh Đúc Lá Dứa",
+    "description": "Bánh đúc lá dứa mềm mịn, thơm mùi lá dứa, ăn kèm nước cốt dừa",
+    "image": "/assets/images/dishes/banhducladua.jpg",
+    "time": 30,
+    "rating": 4.8,
+    "author": "Cô Mai",
+    "difficulty": "Dễ",
+    "tags": ["Ăn vặt", "Ngọt"]
+  },
+    {
+        "name": "Sụn Gà Rang Muối",
+        "description": "Sụn gà rang muối giòn rụm, thơm phức, ăn kèm với rau sống và chanh",
+        "image": "/assets/images/dishes/sunga.jpg",
+        "time": 40,
+        "rating": 4.7,
+        "author": "Chị Lan",
+        "difficulty": "Trung bình",
+        "tags": ["Ăn vặt", "Huế"]
+    },
+    {
+        "name": "Bánh Khoai Mì Nướng",
+        "description": "Bánh khoai mì nướng vàng ruộm, thơm mùi dừa, vị ngọt thanh",
+        "image": "/assets/images/dishes/banhkhoaimi.jpg",
+        "time": 50,
+        "rating": 4.8,
+        "author": "Chị Hằng",
+        "difficulty": "Dễ",
+        "tags": ["Ăn vặt", "Ngọt"]
+    },
+  {
+    "name": "Gỏi Gà Xé Phay",
+    "description": "Gỏi gà xé phay chua ngọt, thịt gà mềm, rau thơm tươi mát, ăn khai vị tuyệt vời",
+    "image": "/assets/images/dishes/goigaxephay.jpg",
+    "time": 25,
+    "rating": 4.8,
+    "author": "Cô Mai",
+    "difficulty": "Dễ",
+    "tags": ["Món khai vị", "Gỏi"]
+  },
+  {
+    "name": "Salad Nga",
+    "description": "Salad Nga với khoai tây, cà rốt, trứng, sốt mayonnaise béo ngậy, mát lạnh",
+    "image": "/assets/images/dishes/saladnga.jpg",
+    "time": 20,
+    "rating": 4.7,
+    "author": "Chị Lan",
+    "difficulty": "Dễ",
+    "tags": ["Món khai vị", "Salad"]
+  },
+  {
+    "name": "Chả Giò Hải Sản",
+    "description": "Chả giò hải sản giòn rụm, nhân tôm cua, ăn kèm rau sống và nước mắm chua ngọt",
+    "image": "/assets/images/dishes/chagiohaisan.jpg",
+    "time": 35,
+    "rating": 4.8,
+    "author": "Anh Tuấn",
+    "difficulty": "Trung bình",
+    "tags": ["Món khai vị", "Chiên"]
+  },
+  {
+    "name": "Súp Gà Ngô Non",
+    "description": "Súp gà ngô non sánh mịn, thơm ngọt, thích hợp khai vị cho mọi bữa tiệc",
+    "image": "/assets/images/dishes/supga.jpg",
+    "time": 30,
+    "rating": 4.8,
+    "author": "Cô Mai",
+    "difficulty": "Dễ",
+    "tags": ["Món khai vị", "Súp"]
+  },
+  {
+    "name": "Gỏi Tôm Thái",
+    "description": "Gỏi tôm kiểu Thái chua cay, tôm tươi, rau củ giòn ngon, kích thích vị giác",
+    "image": "/assets/images/dishes/goitomthai.jpg",
+    "time": 25,
+    "rating": 4.7,
+    "author": "Chị Lan",
+    "difficulty": "Trung bình",
+    "tags": ["Món khai vị", "Gỏi"]
+  },
+  {
+    "name": "Salad Trứng Cá Ngừ",
+    "description": "Salad trứng cá ngừ thanh mát, sốt mayonnaise béo nhẹ, rau củ tươi ngon",
+    "image": "/assets/images/dishes/saladcangu.jpg",
+    "time": 20,
+    "rating": 4.6,
+    "author": "Anh Tuấn",
+    "difficulty": "Dễ",
+    "tags": ["Món khai vị", "Salad"]
+  },
+  {
+    "name": "Chả Tôm Cuốn Mía",
+    "description": "Chả tôm cuốn mía chiên vàng, thơm ngọt, ăn kèm nước mắm chua ngọt",
+    "image": "/assets/images/dishes/chatomcuonmia.jpg",
+    "time": 40,
+    "rating": 4.8,
+    "author": "Chú Bình",
+    "difficulty": "Trung bình",
+    "tags": ["Món khai vị", "Chiên"]
+  },
+  {
+    "name": "Bánh Mì Que Pate",
+    "description": "Bánh mì que nhỏ giòn, nhân pate béo ngậy, thích hợp khai vị nhẹ nhàng",
+    "image": "/assets/images/dishes/banhmi.jpg",
+    "time": 15,
+    "rating": 4.7,
+    "author": "Chị Hằng",
+    "difficulty": "Dễ",
+    "tags": ["Món khai vị", "Bánh mì"]
+  },
+  {
+    "name": "Gỏi Tiến Vua Tôm Thịt",
+    "description": "Gỏi tiến vua tôm thịt với tôm tươi, thịt heo, rau thơm, nước trộn chua ngọt",
+    "image": "/assets/images/dishes/goitienvua.jpg",
+    "time": 35,
+    "rating": 4.8,
+    "author": "Cô Thảo",
+    "difficulty": "Trung bình",
+    "tags": ["Món khai vị", "Hải sản"]
+  },
+  {
+    "name": "Bánh Phồng Tôm ",
+    "description": "Bánh phồng tôm chiên giòn, ăn kèm gỏi hoặc chấm tương ớt",
+    "image": "/assets/images/dishes/banhphongtom.jpg",
+    "time": 10,
+    "rating": 4.6,
+    "author": "Chị Ngọc",
+    "difficulty": "Dễ",
+    "tags": ["Món khai vị", "Ăn vặt"]
+  },
+  {
+    "name": "Chả Mực Hạ Long",
+    "description": "Chả mực Hạ Long giòn dai, thơm ngon, ăn kèm bún và rau sống",
+    "image": "/assets/images/dishes/chamuc.jpg",
+    "time": 30,
+    "rating": 4.7,
+    "author": "Chị Mai",
+    "difficulty": "Dễ",
+    "tags": ["Món khai vị", "Hải sản"]
+  },
+  {
+    "name": "Tôm Chiên Giòn",
+    "description": "Tôm chiên giòn, lớp vỏ ngoài giòn rụm, bên trong ngọt thịt, ăn kèm với sốt chua ngọt",
+    "image": "/assets/images/dishes/tomchiengion.jpg",
+    "time": 20,
+    "rating": 4.8,
+    "author": "Cô Hương",
+    "difficulty": "Dễ",
+    "tags": ["Món khai vị", "Hải sản"]
+  },
+  {
+    "name": "Gỏi Củ Hủ Dừa",
+    "description": "Gỏi củ hủ dừa tôm thịt giòn ngon, nước trộn chua ngọt, khai vị hấp dẫn",
+    "image": "/assets/images/dishes/goicuhudua.jpg",
+    "time": 30,
+    "rating": 4.9,
+    "author": "Chị Lan",
+    "difficulty": "Trung bình",
+    "tags": ["Món khai vị", "Gỏi"]
+  },
+  {
+    "name": "Nước Ép Cà Rốt",
+    "description": "Nước ép cà rốt tươi mát, bổ sung vitamin, tốt cho sức khỏe",
+    "image": "/assets/images/dishes/nuocepcarot.jpg",
+    "time": 7,
+    "rating": 4.7,
+    "author": "Chị Hằng",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Trái cây"]
+  },
+  {
+    "name": "Sinh Tố Xoài",
+    "description": "Sinh tố xoài vàng ươm, ngọt dịu, giải nhiệt mùa hè",
+    "image": "/assets/images/dishes/sinhtoxoai.jpg",
+    "time": 8,
+    "rating": 4.8,
+    "author": "Anh Tuấn",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Trái cây"]
+  },
+  {
+    "name": "Trà Đào Cam Sả",
+    "description": "Trà đào cam sả thơm mát, vị chua ngọt hài hòa, rất được ưa chuộng",
+    "image": "/assets/images/dishes/tradaocamxa.jpg",
+    "time": 10,
+    "rating": 4.9,
+    "author": "Bạn Trẻ Sài Gòn",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Trà"]
+  },
+  {
+    "name": "Sữa Đậu Nành",
+    "description": "Sữa đậu nành thơm béo, giàu dinh dưỡng, thích hợp cho mọi lứa tuổi",
+    "image": "/assets/images/dishes/suadaunanh.jpg",
+    "time": 15,
+    "rating": 4.7,
+    "author": "Cô Mai",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Healthy"]
+  },
+  {
+    "name": "Nước Ép Cần Tây Táo",
+    "description": "Nước ép cần tây táo thanh mát, detox cơ thể, tốt cho sức khỏe",
+    "image": "/assets/images/dishes/nuocepcantaytao.jpg",
+    "time": 8,
+    "rating": 4.6,
+    "author": "Chị Lan",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Healthy"]
+  },
+  {
+    "name": "Trà Sữa Matcha",
+    "description": "Trà sữa matcha thơm vị trà xanh, béo nhẹ, topping trân châu hấp dẫn",
+    "image": "/assets/images/dishes/trasua_matcha.jpg",
+    "time": 12,
+    "rating": 4.8,
+    "author": "Chị Ngọc",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Ngọt"]
+  },
+  {
+    "name": "Sinh Tố Mãng Cầu",
+    "description": "Sinh tố mãng cầu chua ngọt, mát lạnh, giàu vitamin C",
+    "image": "/assets/images/dishes/sinhto_mangcau.jpg",
+    "time": 10,
+    "rating": 4.7,
+    "author": "Cô Thảo",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Trái cây"]
+  },
+  {
+    "name": "Nước Sâm Rong Biển",
+    "description": "Nước sâm rong biển thanh mát, giải nhiệt, tốt cho gan thận",
+    "image": "/assets/images/dishes/nuocsamrongbien.jpg",
+    "time": 20,
+    "rating": 4.8,
+    "author": "Chú Bình",
+    "difficulty": "Dễ",
+    "tags": ["Đồ uống", "Thảo mộc"]
+  }
+]
